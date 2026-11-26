@@ -1,12 +1,12 @@
 #include <iostream>
-#include <vector>
+#include "map.hpp"
+#include "snake.hpp"
 
 int main()
 {
+    
+ std::cout<<Snake::direction;
     // initialisation de la map
-    int const map_width{10};
-    int const map_height{10};
-    int map[map_width][map_height];
     for (int x = 0; x < map_width; x++)
     {
         for (int y = 0; y < map_height; y++)
